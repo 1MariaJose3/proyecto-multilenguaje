@@ -1,0 +1,5 @@
+requires 'Plack';
+requires 'SOAP::Lite';
+requires 'LWP::UserAgent';
+requires 'JSON';
+requires 'Lingua::ES::Numeros';
