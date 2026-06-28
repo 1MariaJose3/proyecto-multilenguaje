@@ -1,0 +1,12 @@
+source 'https://rubygems.org'
+
+# Servidor web local y herramientas de infraestructura
+gem 'sinatra'
+gem 'puma'
+gem 'rackup'
+
+# Cliente SOAP (Para consumir el servicio web de la Versión 1 y 2)
+gem 'savon'
+
+# Convertidor nativo de números a letras en español (Para la Versión 3)
+gem 'numbers_and_words'
