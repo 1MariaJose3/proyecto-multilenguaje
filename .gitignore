@@ -1,0 +1,48 @@
+# --- NODE.JS ---
+node_modules/
+npm-debug.log*
+
+# --- PHP ---
+vendor/
+.phpunit.result.cache
+
+# --- RUBY ---
+.bundle/
+vendor/bundle/
+activate
+*.gem
+
+# --- .NET (C#) ---
+bin/
+obj/
+.vs/
+*.user
+
+# --- GOLANG ---
+# Go genera ejecutables directamente, ignoramos los archivos compilados
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# --- JAVA ---
+target/
+*.class
+*.jar
+*.war
+
+# --- C++ ---
+# Ignorar carpetas de compilación comunes y ejecutables
+build/
+*.o
+*.obj
+*.out
+
+# --- RUST ---
+# Rust mete todo lo compilado y descargado en 'target'
+target/
+
+# --- SISTEMA OPERATIVO ---
+.DS_Store
+Thumbs.db
